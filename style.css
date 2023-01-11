@@ -1,0 +1,108 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: antiquewhite;
+
+}
+
+main {
+    /* border: 3px solid red; */
+    margin: auto;
+    width: 1000px;
+    height: 703vh;
+    box-shadow: 10px 0px 100px black;
+    background-color: azure;
+}
+
+#landingimage {
+    background-image: url(https://webneel.com/daily/sites/default/files/images/daily/05-2018/portrait-photography-by-dennis-drozhzhin.jpg);
+    background-size: 72vh 55vw;
+    background-repeat: no-repeat;
+    /* border: 3px solid black; */
+    height: 101vh;
+    width: 72vh;
+    float: right;
+}
+
+#landingtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding-left: 1em;
+    padding-right: 1em;
+    /* border: 3px solid blue; */
+}
+
+h1 {
+    /* border: 3px solid black; */
+    display: block;
+    font-weight: 600;
+    color: rgb(5, 97, 105);
+}
+
+
+.btn {
+    text-decoration: none;
+    margin: 10vh;
+    padding: 20px;
+    /* border: 3px solid green; */
+    border-radius: 20px;
+    font-size: 19px;
+    height: 10vh;
+    width: 12vw;
+    position: relative;
+    bottom: 35vh;
+    left: 6vw;
+    color: rgb(126, 159, 126);
+    background-color: rgb(211, 235, 255);
+
+}
+
+.btn:hover {
+    color: antiquewhite;
+    background-color: rgb(150, 150, 68);
+    transition: 1s;
+}
+
+#images {
+    /* background-color: yellow; */
+    position: relative;
+    bottom: 22px;
+
+}
+
+#header {
+    /* border: 3px solid red;  */
+    text-align: center;
+    background-color: rgb(80, 68, 68);
+
+}
+
+#header h2 {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: aliceblue;
+    border-left: dotted rgb(191, 132, 107);
+    border-right: dotted rgb(191, 132, 107);
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+#images img {
+    width: 1000px;
+    height: 100vh;
+}
+
+div {
+    display: block;
+}
+footer{
+    text-align: center;
+    font-weight: 600;
+}
